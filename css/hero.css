@@ -1,0 +1,33 @@
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: clamp(0rem, 3.0075vw + -.7049rem, 2rem);
+
+    .hero-content-inner {
+        text-align: center;
+    }
+    .hero-title {
+        text-transform: uppercase;
+    }
+    .hero-text {
+        color: var(--clr-silver);
+        max-width: 52ch;
+        margin-top: clamp(.75rem, .7519vw + .5738rem, 1.25rem);
+    }
+
+    @media (width < 1080px) {
+        .hero-title {
+            text-transform: capitalize;
+        }
+        .hero-graphic {
+            display: none;
+        }
+    }
+}
+
+@media (width < 1080px) {
+    .hero-content {
+        justify-content: center;
+    }
+}

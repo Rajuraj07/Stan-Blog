@@ -1,0 +1,28 @@
+/*=====================================================
+   LAYOUT HELPERS
+===================================================== */
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin-inline: auto;
+}
+
+.u-display-flex {
+  display: flex;
+}
+
+.u-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.u-display-grid {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.u-grid-autofit {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}

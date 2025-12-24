@@ -1,0 +1,35 @@
+/*=====================================================
+   Common Components Style
+===================================================== */
+
+/*Button Component*/
+.primary-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--clr-primary);
+    border-radius: 50px;
+    color: var(--clr-bg);
+    font-size: clamp(.875rem, .188vw + .8309rem, 1rem);
+    line-height: 1.5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.signup-btn {
+    background: var(--clr-bg);
+    color: #14151D;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.625rem;
+    border-radius: 1.25rem;
+    line-height: 1.5625em;
+    letter-spacing: 0.0105em;
+    font-weight: 500;
+    font-size: clamp(.875rem, .188vw + .8309rem, 1rem);
+}
+.read-more-btn {
+    display: flex;
+    gap: 4px;
+    line-height: 1.5;
+    color: #14151D;
+}

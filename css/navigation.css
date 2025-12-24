@@ -1,0 +1,114 @@
+/* =====================================================
+   Navigation style
+===================================================== */
+.nav-component {
+    margin-top: 1.625rem;
+
+    @media (width < 900px) {
+        margin-top: 1.5rem;
+    }
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--clr-primary);
+    padding-inline: clamp(.5rem, .3759vw + .4119rem, .75rem);
+    padding-block: clamp(.375rem, .5639vw + .2428rem, .75rem);
+    border-radius: 100px;
+    position: relative;
+    
+    .nav-menu_wrapper {
+        display: flex;
+        align-items: center;
+        gap: clamp(2rem, 4.8872vw + .8546rem, 5.25rem);
+    }
+    .nav-brand-logo {
+        height: clamp(1.5rem, 1.6917vw + 1.1035rem, 2.625rem);
+    }
+    .nav-list {
+        display: flex;
+        align-items: center;
+        gap: clamp(1rem, 1.5038vw + .6476rem, 2rem);
+    }
+    .nav-link {
+        padding: var(--space-1);
+        color: var(--clr-lavender-mist);
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.0117272em;
+        transition: color 200ms;
+        &:hover {
+            color: var(--clr-bg);
+        }
+    }
+    .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 1.313rem;
+    }
+    .nav-login {
+        color: var(--clr-bg);
+        font-weight: 700;
+        line-height: 1.5625em;
+        letter-spacing: 0.0105em;
+    }
+    .nav_toggler {
+        display: none;
+    }
+    .nav_toggler-icon {
+        position: relative;
+        width: 2rem;
+        height: 2rem;
+        background: var(--clr-blue);
+        display: flex;
+        border-radius: 50%;
+    }
+    @media (width < 900px) {
+        .nav-actions {
+            display: none;
+        }
+        .nav_toggler {
+            display: block;
+        }
+        .nav-menu {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 100%;
+            padding: 1.25rem;
+            background: var(--clr-primary);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 200ms, visibility 200ms;
+        }
+        .nav-menu.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        .nav-list {
+            flex-direction: column;
+        }
+        .nav_toggler-icon:after, .nav_toggler-icon:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 2px;
+            height: 65%;
+            background: #fff;
+            transform: rotate(90deg) translate(1px, -15px);
+            transition: transform .3s ease-in-out;
+        }
+        .nav_toggler-icon:after {
+            top: 8px;
+        }
+        .nav_toggler.show .nav_toggler-icon:after {
+            transform: rotate(45deg) translate(9px, -14px);
+        }
+        .nav_toggler.show .nav_toggler-icon::before {
+            transform: rotate(135deg) translate(-8px, -15px);
+        }
+    }
+}

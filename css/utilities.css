@@ -1,0 +1,72 @@
+/* =====================================================
+   UTITILIES CLASSES
+===================================================== */
+.u-hidden {
+  display: none !important;
+}
+.u-text-center {
+  text-align: center;
+}
+.u-spacing-inline {
+  padding-inline: clamp(1rem, 1.5038vw + .6476rem, 2rem);
+}
+.u-spacing-block-lg {
+  padding-top: clamp(2rem, 3.7594vw + 1.1189rem, 4.5rem);
+  padding-bottom: clamp(2rem, 3.7594vw + 1.1189rem, 4.5rem);
+}
+.u-spacing-block-md {
+  padding-top: clamp(2rem, 2.2556vw + 1.4713rem, 3.5rem);
+  padding-bottom: clamp(2rem, 2.2556vw + 1.4713rem, 3.5rem);
+}
+.u-spacing-block-md.cc-top-0, .u-spacing-block-lg.cc-top-0 {
+  padding-top: 0;
+}
+.u-spacing-block-md.cc-bottom-0, .u-spacing-block-lg.cc-bottom-0 {
+  padding-bottom: 0;
+}
+.u-text-muted {
+  color: var(--clr-muted);
+}
+.u-text-white {
+  color: var(--clr-bg);
+}
+.u-weight-500 {
+  font-weight: 500;
+}
+.u-weight-600 {
+  font-weight: 600;
+}
+.u-weight-700 {
+  font-weight: 700;
+}
+.u-text-uppercase {
+  text-transform: uppercase;
+}
+.u-overflow-clip {
+  overflow: clip;
+}
+.mt-4 {
+  margin-top: var(--space-4);
+}
+.mb-4 {
+  margin-bottom: var(--space-4);
+}
+.u-line-clamp-2 { -webkit-line-clamp: 2; }
+.u-line-clamp-1,
+.u-line-clamp-2,
+.u-line-clamp-3{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

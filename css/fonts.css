@@ -1,0 +1,88 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * ivypresto-display:
+ *   - http://typekit.com/eulas/00000000000000007735e5a7
+ *   - http://typekit.com/eulas/00000000000000007735e5b3
+ *   - http://typekit.com/eulas/00000000000000007735e5af
+ *   - http://typekit.com/eulas/00000000000000007735e5b0
+ * ivypresto-text:
+ *   - http://typekit.com/eulas/00000000000000007735e5b6
+ *   - http://typekit.com/eulas/00000000000000007735e5b8
+ *   - http://typekit.com/eulas/00000000000000007735e5b9
+ *   - http://typekit.com/eulas/00000000000000007735e5ba
+ *
+ * © 2009-2025 Adobe Systems Incorporated. All Rights Reserved.
+ */
+
+@font-face {
+  font-family:"ivypresto-display";
+  src:url("https://use.typekit.net/af/072071/00000000000000007735e5a7/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2");
+  font-display:auto;
+  font-style:italic;
+  font-weight:400;
+  font-stretch:normal;
+}
+
+@font-face {
+  font-family:"ivypresto-display";
+  src:url("https://use.typekit.net/af/fad29f/00000000000000007735e5b3/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2");
+  font-display:auto;
+  font-style:normal;
+  font-weight:400;
+  font-stretch:normal;
+}
+
+@font-face {
+  font-family:"ivypresto-display";
+  src:url("https://use.typekit.net/af/5071c4/00000000000000007735e5af/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2");
+  font-display:auto;
+  font-style:normal;
+  font-weight:700;
+  font-stretch:normal;
+}
+
+@font-face {
+  font-family:"ivypresto-display";
+  src:url("https://use.typekit.net/af/d7ef03/00000000000000007735e5b0/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2");
+  font-display:auto;
+  font-style:italic;
+  font-weight:700;
+  font-stretch:normal;
+}
+
+/* Body Font*/
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/Fonts/PlusJakartaSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/Fonts/PlusJakartaSans-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/Fonts/PlusJakartaSans-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("../assets/Fonts/PlusJakartaSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
