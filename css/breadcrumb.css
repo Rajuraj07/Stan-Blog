@@ -1,0 +1,8 @@
+.breadcrumbs {
+    padding-block: clamp(1rem, 1.5038vw + .6476rem, 2rem);
+    
+    .breadcrumbs-content {
+        align-items: center;
+        gap: 0.5rem;
+    }
+}

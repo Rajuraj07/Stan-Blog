@@ -7,6 +7,9 @@
 .u-text-center {
   text-align: center;
 }
+.u-color-secondary {
+  color: var(--clr-secondary);
+}
 .u-spacing-inline {
   padding-inline: clamp(1rem, 1.5038vw + .6476rem, 2rem);
 }

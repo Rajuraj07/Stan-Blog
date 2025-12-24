@@ -3,9 +3,11 @@
 ===================================================== */
 .nav-component {
     margin-top: 1.625rem;
+    position: absolute;
+    width: 100%;
 
     @media (width < 900px) {
-        margin-top: 1.5rem;
+        margin-top: 0.625rem;
     }
 }
 

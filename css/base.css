@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin: 0;
 }
+.display-xl {
+  font-size: clamp(2.5rem, 3.7594vw + 1.6189rem, 5rem);
+  line-height: 1.2;
+  letter-spacing: 0.00625em;
+}
 .display-lg {
   font-size: clamp(2.5rem, 3.0075vw + 1.7951rem, 4.5rem);
   line-height: 1.11;

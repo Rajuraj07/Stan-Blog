@@ -5,6 +5,7 @@
 .pagination {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: clamp(2rem, .7519vw + 1.8238rem, 2.5rem);
 }
 

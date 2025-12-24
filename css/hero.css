@@ -1,3 +1,11 @@
+/*Section Home Hero*/
+.section-hero {
+    padding-top: clamp(5.75rem, 7.7068vw + 3.9437rem, 10.875rem);
+
+    &.cc-category {
+        background-color: var(--clr-bg-light);
+    }
+}
 .hero-content {
     display: flex;
     align-items: center;
@@ -25,9 +33,19 @@
         }
     }
 }
-
 @media (width < 1080px) {
     .hero-content {
         justify-content: center;
+    }
+}
+
+/*Section Category Hero*/
+.category-hero-content {
+    .back-link {
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--clr-primary);
+        font-size: 1.25rem;
+        margin-bottom: clamp(1rem, .7519vw + .8238rem, 1.5rem);
     }
 }
