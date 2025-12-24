@@ -100,3 +100,7 @@ p {
   line-height: 1.16;
   letter-spacing: 0.016666666666666666em;
 }
+.title-md {
+  font-size: clamp(1.25rem, .7519vw + 1.0738rem, 1.75rem);
+  line-height: 1.16;
+}

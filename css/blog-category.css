@@ -8,6 +8,10 @@
     .blog-categories-title {
         margin-bottom: clamp(3rem, .7519vw + 2.8238rem, 3.5rem);
     }
+
+    &.cc-author {
+        margin-bottom: clamp(3rem, .7519vw + 2.8238rem, 3.5rem);
+    }
 }
 .filter-list {
     gap: 0.75rem;
