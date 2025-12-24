@@ -1,0 +1,152 @@
+/* ==============================
+   PAGINATION WRAPPER
+============================== */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: clamp(2rem, .7519vw + 1.8238rem, 2.5rem);
+}
+
+.pagination__list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ==============================
+   PAGINATION ITEMS
+============================== */
+
+.pagination__item {
+  display: flex;
+}
+
+/* Links */
+.pagination__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.75rem;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+
+  color: #5C5C5C;
+  text-decoration: none;
+
+  background: #ffffff;
+  border-radius: 0.5rem;
+  border: 1px solid #E5E7F3;
+
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.pagination__link:hover {
+  background: #E5E7F3;
+  border-color: #E5E7F3;
+}
+
+/* Active */
+.pagination__item--active .pagination__link {
+  background: #E5E7F3;
+  color: #5C5C5C;
+  cursor: default;
+}
+
+/* Disable pointer on active */
+.pagination__item--active .pagination__link {
+  pointer-events: none;
+}
+
+/* ==============================
+   PREV / NEXT
+============================== */
+
+.pagination__item--prev .pagination__link,
+.pagination__item--next .pagination__link {
+  font-size: 0.875rem;
+  padding: 0 0.5rem;
+  font-weight: 500;
+}
+
+/* ==============================
+   DOTS
+============================== */
+
+.pagination__item--dots {
+  padding: 0 0.25rem;
+}
+
+.pagination__dots {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+/* ==============================
+   WORDPRESS COMPATIBILITY
+============================== */
+
+/* Default WP output */
+.page-numbers {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 36px;
+  height: 36px;
+  padding: 0 0.75rem;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+
+  color: #4b5563;
+  background: #ffffff;
+
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  text-decoration: none;
+
+  transition: all 0.2s ease;
+}
+
+.page-numbers:hover {
+  background: #f3f4f6;
+}
+
+.page-numbers.current {
+  background: #6d5dfc;
+  color: #ffffff;
+  border-color: #6d5dfc;
+}
+
+.page-numbers.dots {
+  border: none;
+  background: transparent;
+  pointer-events: none;
+  color: #9ca3af;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (width < 480px) {
+  .pagination__list {
+    gap: 0.25rem;
+  }
+
+  .pagination__link,
+  .page-numbers {
+    min-width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+}
