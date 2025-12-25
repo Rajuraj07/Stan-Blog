@@ -6,6 +6,13 @@
   width: 100%;
   max-width: 1320px;
   margin-inline: auto;
+
+  &.cc-1240 {
+    max-width: 1240px;
+  }
+  &.cc-1200 {
+    max-width: 1200px;
+  }
 }
 
 .u-display-flex {

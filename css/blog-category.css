@@ -1,3 +1,8 @@
+.section-blog-category {
+    &.cc-blog-post {
+        background-color: var(--clr-bg-light);
+    }
+}
 .blog-categories-header {
     display: flex;
     flex-direction: column;
