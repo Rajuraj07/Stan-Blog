@@ -35,7 +35,7 @@ a {
   text-decoration: none;
 }
 
-ul,li {
+ul,ol {
   margin: 0;
   list-style: none;
   padding-left: 0;

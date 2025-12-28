@@ -125,6 +125,10 @@
         .blog-hero-image {
             width: 3rem;
         }
+
+        .blog-author-image {
+            width: 2.813rem;
+        }
     }
 }
 .blog-hero-image {
